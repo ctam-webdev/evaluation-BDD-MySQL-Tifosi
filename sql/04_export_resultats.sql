@@ -23,10 +23,17 @@ Résultat attendu :
   * Paysanne
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Américaine
+- Emmentalaccia
+- Gorgonzollaccia
+- Hawaienne
+- Mozaccia
+- Paysanne
+- Raclaccia
+- Tradizione
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+Aucun écart constaté. Les 8 focaccias sont présentes et correctement triées par ordre alphabétique.
 */
 
 /*
@@ -41,10 +48,10 @@ Résultat attendu :
 - 25 ingrédients au total (selon les données de 02_data.sql)
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+25 ingrédients au total
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+Aucun écart constaté. Le nombre d'ingrédients correspond exactement au nombre attendu selon 02_data.sql.
 */
 
 /*
@@ -60,10 +67,10 @@ Résultat attendu :
 - Devrait être cohérent avec les prix du fichier focaccia.xlsx
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Le prix moyen d'une foccacia est de 10.28 (cohérent avec le fichier)
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+- Aucun écart constaté, le prix moyen est cohérent.
 */
 
 /*
@@ -82,10 +89,21 @@ Résultat attendu :
 - Liste triée par nom de boisson
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Capri-sun (Coca-cola)
+- Coca-cola original (Coca-cola)
+- Coca-cola zéro (Coca-cola)
+- Eau de source (Cristalline)
+- Fanta citron (Coca-cola)
+- Fanta orange (Coca-cola)
+- Lipton Peach (Pepsico)
+- Lipton zéro citron (Pepsico)
+- Monster energy ultra blue (Monster)
+- Monster energy ultra gold (Monster)
+- Pepsi (Pepsico)
+- Pepsi Max Zéro (Pepsico)
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+- Aucun écart constaté, la relation entre boissons et marques est cohérente avec le fichier 02_data.sql
 */
 
 /*
@@ -105,10 +123,16 @@ Résultat attendu :
 - Les quantités doivent correspondre aux données insérées
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Ail : 2
+- Base Tomate : 200
+- Champignon : 40
+- Cresson : 20
+- Parmesan : 50
+- Poivre : 1
+- Raclette : 50
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+Aucun écart constaté, la composition de la Raclaccia est cohérente avec le fichier 02_data.sql
 */
 
 /*
@@ -127,10 +151,17 @@ Résultat attendu :
 - Nombre d'ingrédients cohérent avec le fichier focaccia.xlsx
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Américaine : 8
+- Emmentalaccia : 7
+- Gorgonzollaccia : 8
+- Hawaienne : 8
+- Mozaccia : 8
+- Paysanne : 12
+- Raclaccia : 7
+- Tradizione : 9
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+Aucun écart constaté, le nombre d'ingrédients par focaccia est cohérent avec le fichier 02_data.sql
 */
 
 /*
@@ -155,10 +186,10 @@ Résultat attendu :
 - Nombre d'ingrédients maximum
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Paysanne : 12
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+Aucun écart constaté, la focaccia avec le plus d'ingrédients est cohérente avec le fichier 02_data.sql
 */
 
 /*
@@ -178,10 +209,12 @@ Résultat attendu :
 - Résultat trié par ordre alphabétique
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Gorgonzollaccia
+- Paysanne
+- Raclaccia
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+Aucun écart constaté, la liste des focaccias contenant de l'ail est cohérente avec le fichier 02_data.sql
 */
 
 /*
@@ -200,10 +233,10 @@ Résultat attendu :
 - Permet d'identifier les ingrédients potentiellement à supprimer
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Tomate cerise
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+Aucun écart constaté, la liste des ingrédients inutilisés est cohérente avec le fichier 02_data.sql
 */
 
 /*
@@ -226,8 +259,9 @@ Résultat attendu :
 - Résultat trié par ordre alphabétique
 
 Résultat obtenu :
-[À REMPLIR APRÈS EXÉCUTION]
+- Américaine
+- Hawaienne
 
 Analyse des écarts :
-[À REMPLIR APRÈS EXÉCUTION]
+Aucun écart constaté, la liste des focaccias sans champignons est cohérente avec le fichier 02_data.sql
 */
