@@ -7,6 +7,7 @@ Base de données MySQL pour un restaurant de focaccia.
 - `sql/01_schema.sql` : Script de création du schéma de la base de données
 - `sql/02_data.sql` : Script d'insertion des données de test
 - `sql/03_test.sql` : Script des requêtes de test pour validation
+- `sql/04_export_resultats.sql` : Version documentée des requêtes avec résultats attendus et analyses
 
 ## Structure de la Base de Données
 
@@ -40,7 +41,10 @@ Les données comprennent :
 
 ## Requêtes de Test
 
-Le script `03_test.sql` contient des requêtes pour valider la base de données :
+Le projet contient deux scripts de test :
+
+### Script de Test (03_test.sql)
+Script contenant les 10 requêtes SQL pour valider la base de données :
 1. Liste des focaccias par ordre alphabétique
 2. Nombre total d'ingrédients disponibles
 3. Prix moyen des focaccias
@@ -51,3 +55,13 @@ Le script `03_test.sql` contient des requêtes pour valider la base de données 
 8. Focaccias contenant de l'ail
 9. Ingrédients non utilisés
 10. Focaccias sans champignons
+
+### Documentation des Tests (04_export_resultats.sql)
+Version documentée des mêmes requêtes incluant pour chacune :
+- Le but du test
+- Le code SQL
+- Les résultats attendus
+- Un espace pour les résultats obtenus
+- Une section pour l'analyse des écarts
+
+Ce script sert de documentation technique et facilite la maintenance future de la base de données.
