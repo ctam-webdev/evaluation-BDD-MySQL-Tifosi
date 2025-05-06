@@ -5,6 +5,7 @@ Base de données MySQL pour un restaurant de focaccia.
 ## Structure du Projet
 
 - `sql/01_schema.sql` : Script de création du schéma de la base de données
+- `sql/02_data.sql` : Script d'insertion des données de test
 
 ## Structure de la Base de Données
 
@@ -21,3 +22,17 @@ Et les tables de relations :
 - `est_constitue` : Composition des menus (focaccias)
 - `achete` : Historique des achats
 - `contient` : Boissons incluses dans les menus
+
+## Données de Test
+
+Les données de test ont été importées depuis les fichiers Excel suivants :
+- `marque.xlsx` → Table `marque`
+- `boisson.xlsx` → Table `boisson`
+- `ingredient.xlsx` → Table `ingredient`
+- `focaccia.xlsx` → Tables `foccacia` et `comprend`
+
+Les données comprennent :
+- 4 marques de boissons
+- 12 boissons
+- 25 ingrédients
+- 8 focaccias avec leurs compositions détaillées
